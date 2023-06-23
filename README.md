@@ -11,6 +11,7 @@ pedido del departamento de **Ventas** para desarrollar **una aplicación base de
 El **objetivo** consiste en **desarrollar una aplicación web** que permita registrar los servicios que la empresa ofrece, registrar empleados y clientes, poder reservar un servicio para un cliente y visualizar diferentes tipos de listados. Por último, se pide la posibilidad de acceder a la información de los servicios a través de un endpoint en donde se podrán consultar todos los servicios disponibles y poder filtrarlos por el id en donde se visualizará el detalle completo del mismo.
 
 
+---------------------------------------------------------------------------------------
 ## Instalación del proyecto
 Los pasos para poner en marcha el proyecto son los siguientes:
 - Paso 1: Entrar en la consola e ingresar este comando pip install -r requeriments.txt

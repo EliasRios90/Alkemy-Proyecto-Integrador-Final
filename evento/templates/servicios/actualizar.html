@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block titulo %} Actualizar Servicio {% endblock %}
+
+
+
+{% block contenido_principal %}
+{%if creado%}
+    <div class="toast-exito">Actualizado con exito</div>
+{%endif%}
+{%if fallo%}
+    <div class="toast-fallo">Ocurrió un error al tratar de actualizar el registro</div>
+{%endif%}
+<div class="contenido">
+  <h1 class="titulo">Actualizar Servicio</h1>
+  <form method="post" class="formulario">
+    {% csrf_token %}
+    <div class="contenedor-campos">
+      <div class="campo-formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" value="{{servicio.nombre}}" required>
+      </div>
+      <div class="campo-formulario">
+        <label for="descripcion">Descripción:</label>
+        <input type="text" name="descripcion" value="{{servicio.descripcion}}" required>
+      </div>
+      <div class="campo-formulario">
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" value="{{servicio.precio}}" required>
+      </div>
+
+      <input class="boton" type="submit" value="Actualizar">
+
+      <a href="{% url 'listar_servicios' %}" class="volver-link">
+          Volver al listado
+      </a>
+    </div>
+  </form>
+</div>
+{% endblock %}

@@ -1,5 +1,8 @@
 # Proyecto Integrador Alkemy
 
+### Equipo desarrollador:
+Alfredo Elias Rios, [Gonzalo Zelaya](http://github.com/ZelayaGonzalo "Gonzalo Zelaya"), [Raúl Juárez](http://github.com/rejota196 "Raúl Juárez") y [Roberto Miranda](http://github.com/robertomiranda94 "Roberto Miranda")
+
 ## Instalación del proyecto
 Los pasos para poner en marcha el proyecto son los siguientes:
 - Paso 1: Entrar en la consola e ingresar este comando pip install -r requeriments.txt
